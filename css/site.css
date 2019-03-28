@@ -147,12 +147,12 @@ header .navbar-default {
     }
 
         header .navbar-default.scrolled .navbar-brand {
-            padding: 15px 20px;
+            padding: 5px 20px;
         }
 
             header .navbar-default.scrolled .navbar-brand img {
                 width: auto;
-                max-height: 33px;
+                max-height: 60px;
             }
 
         header .navbar-default.scrolled ul.navbar-nav {
