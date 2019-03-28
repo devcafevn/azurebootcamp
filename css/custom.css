@@ -32,6 +32,7 @@
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    padding-top: 435px;
 }
 
     .intro .intro-body {
@@ -123,4 +124,36 @@ h4.modal-title {
 
 div.modal-body {
     color: #808080;
+}
+
+#divTimer {
+    text-align: center;
+}
+
+    #divTimer div {
+        margin: 20px;
+        display: inline-block;
+        padding: 25px;
+        min-width: 120px;
+        background-color: #0094ff;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+        #divTimer div span {
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+.btn.register {
+    text-transform: uppercase;
+    background-color: #0094ff;
+    color: white;
+    padding: 15px 55px;
+    font-weight: bold;
+    font-size: x-large;
 }

@@ -130,6 +130,7 @@ header .navbar-default {
     header .navbar-default .navbar-brand {
         height: auto;
         padding: 0;
+        display: none;
     }
 
     header .navbar-default.scrolled {
@@ -796,22 +797,9 @@ form textarea.form-control {
 }
 
 header {
-    background: #37d0fb;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #37d0fb), color-stop(100%, #3b4670));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
-    /* IE10+ */
-    background: linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#37d0fb, endColorstr=#3b4670, GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
+    background: url(../images/background.jpg) top center !important;
+    background-size: cover !important;
+    height: 700px;
 }
 
     header .navbar-default ul.navbar-nav li a {
@@ -821,19 +809,8 @@ header {
 
         header .navbar-default ul.navbar-nav li a.getApp {
             color: #824583;
-            background: #ffffff;
-            /* Old browsers */
-            background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-            /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
-            /* Chrome,Safari4+ */
-            background: -webkit-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-            /* Chrome10+,Safari5.1+ */
-            background: -o-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-            /* Opera 11.10+ */
-            background: -ms-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-            /* IE10+ */
-            background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+            background: url(../images/background.jpg) top center !important;
+            background-size: cover !important;
             /* W3C */
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
             /* IE6-9 fallback on horizontal gradient */
@@ -890,7 +867,7 @@ header {
                 }
 
         header .navbar-default.scrolled .navbar-brand {
-            background: #3b4670;
+            display: block;
         }
 
 section .section-heading .divider:after {
