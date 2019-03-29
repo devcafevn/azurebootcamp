@@ -67,7 +67,7 @@ header .navbar-default {
         header .navbar-default ul.navbar-nav li a {
             text-transform: capitalize;
             font-weight: 400;
-            font-size: 16px;
+            font-size: 17px;
             padding: 7px 20px;
             -webkit-transition: all 0.25s ease-in-out;
             -moz-transition: all 0.25s ease-in-out;
@@ -797,13 +797,13 @@ form textarea.form-control {
 }
 
 header {
-    background: url(../images/background.jpg) top center !important;
+    background: url(../images/azurebootcamp2019-hcmc.jpg) top center !important;
     background-size: cover !important;
     height: 725px;
 }
 
     header .navbar-default ul.navbar-nav li a {
-        color: #ffffff;
+        color: #23527c;
         background: none;
     }
 
