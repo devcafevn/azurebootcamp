@@ -104,6 +104,8 @@ a.speakersocial {
     /* Times */
     .agenda .agenda-time {
         width: 140px;
+        text-align: right;
+        padding-right: 30px;
     }
 
 
