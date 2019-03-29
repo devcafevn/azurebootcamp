@@ -157,3 +157,7 @@ div.modal-body {
     font-weight: bold;
     font-size: x-large;
 }
+
+.agenda-time {
+    text-align: center;
+}
