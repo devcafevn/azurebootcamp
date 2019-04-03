@@ -48,10 +48,10 @@ h6,
     color: #666666;
 }
 
-header .navbar-default {
+header .navbar {
     background: none;
     border: none;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -60,80 +60,92 @@ header .navbar-default {
     transition: all 0.25s ease-in-out;
 }
 
-    header .navbar-default ul.navbar-nav {
-        padding-top: 55px;
-    }
+    header .navbar ul.navbar-nav {
 
-        header .navbar-default ul.navbar-nav li a {
-            text-transform: capitalize;
-            font-weight: 400;
-            font-size: 17px;
-            padding: 7px 20px;
-            -webkit-transition: all 0.25s ease-in-out;
-            -moz-transition: all 0.25s ease-in-out;
-            -ms-transition: all 0.25s ease-in-out;
-            -o-transition: all 0.25s ease-in-out;
-            transition: all 0.25s ease-in-out;
+    }
+        header .navbar ul.navbar-nav li {
+            position: relative;
+            margin: 10px;
+            text-align: center;
         }
 
-            header .navbar-default ul.navbar-nav li a:after {
-                content: '';
-                width: 32px;
-                background: none;
-                height: 4px;
-                position: absolute;
-                bottom: 2px;
-                z-index: 99999;
-                left: 20px;
-                -webkit-border-radius: 5em;
-                -moz-border-radius: 5em;
-                -ms-border-radius: 5em;
-                -o-border-radius: 5em;
-                border-radius: 5em;
-                color: #ffffff;
+            header .navbar ul.navbar-nav li a {
+                text-transform: capitalize;
+                font-weight: 400;
+                font-size: 17px;
+                padding: 7px 20px;
                 -webkit-transition: all 0.25s ease-in-out;
                 -moz-transition: all 0.25s ease-in-out;
                 -ms-transition: all 0.25s ease-in-out;
                 -o-transition: all 0.25s ease-in-out;
                 transition: all 0.25s ease-in-out;
+                text-decoration: none;
             }
 
-            header .navbar-default ul.navbar-nav li a:hover {
-                -webkit-transition: all 0.25s ease-in-out;
-                -moz-transition: all 0.25s ease-in-out;
-                -ms-transition: all 0.25s ease-in-out;
-                -o-transition: all 0.25s ease-in-out;
-                transition: all 0.25s ease-in-out;
-            }
-
-                header .navbar-default ul.navbar-nav li a:hover:after {
-                    background: #ffffff;
+                header .navbar ul.navbar-nav li a:after {
+                    content: '';
+                    width: 32px;
+                    background: none;
+                    height: 4px;
+                    position: absolute;
+                    bottom: -5px;
+                    z-index: 99999;
+                    left: 20px;
+                    -webkit-border-radius: 5em;
+                    -moz-border-radius: 5em;
+                    -ms-border-radius: 5em;
+                    -o-border-radius: 5em;
+                    border-radius: 5em;
+                    color: #ffffff;
+                    -webkit-transition: all 0.25s ease-in-out;
+                    -moz-transition: all 0.25s ease-in-out;
+                    -ms-transition: all 0.25s ease-in-out;
+                    -o-transition: all 0.25s ease-in-out;
+                    transition: all 0.25s ease-in-out;
                 }
 
-            header .navbar-default ul.navbar-nav li a.getApp {
-                -webkit-border-radius: 5em;
-                -moz-border-radius: 5em;
-                -ms-border-radius: 5em;
-                -o-border-radius: 5em;
-                border-radius: 5em;
-                -webkit-transition: all 0.25s ease-in-out;
-                -moz-transition: all 0.25s ease-in-out;
-                -ms-transition: all 0.25s ease-in-out;
-                -o-transition: all 0.25s ease-in-out;
-                transition: all 0.25s ease-in-out;
-            }
-
-                header .navbar-default ul.navbar-nav li a.getApp:after {
-                    display: none;
+                header .navbar ul.navbar-nav li a:hover {
+                    -webkit-transition: all 0.25s ease-in-out;
+                    -moz-transition: all 0.25s ease-in-out;
+                    -ms-transition: all 0.25s ease-in-out;
+                    -o-transition: all 0.25s ease-in-out;
+                    transition: all 0.25s ease-in-out;
                 }
 
-    header .navbar-default .navbar-brand {
+                    header .navbar ul.navbar-nav li a:hover:after {
+                        background: #ffffff;
+                    }
+
+                header .navbar ul.navbar-nav li a.getApp {
+                    -webkit-border-radius: 5em;
+                    -moz-border-radius: 5em;
+                    -ms-border-radius: 5em;
+                    -o-border-radius: 5em;
+                    border-radius: 5em;
+                    -webkit-transition: all 0.25s ease-in-out;
+                    -moz-transition: all 0.25s ease-in-out;
+                    -ms-transition: all 0.25s ease-in-out;
+                    -o-transition: all 0.25s ease-in-out;
+                    transition: all 0.25s ease-in-out;
+                }
+
+                    header .navbar ul.navbar-nav li a.getApp:after {
+                        display: none;
+                    }
+
+    header .navbar .navbar-toggler {
+        margin-right: 10px;
+    }
+    header .navbar .navbar-brand {
         height: auto;
         padding: 0;
-        display: none;
     }
+        header .navbar .navbar-brand .logo{
+            height: 80px;
+            width: 80px;
+        }
 
-    header .navbar-default.scrolled {
+    header .navbar.scrolled {
         background: rgba(255, 255, 255, 0.8);
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
@@ -146,18 +158,17 @@ header .navbar-default {
         transition: all 0.25s ease-in-out;
     }
 
-        header .navbar-default.scrolled .navbar-brand {
-            padding: 5px 20px;
+        header .navbar.scrolled .navbar-toggler {
+            margin-right: 10px;
+        }
+        header .navbar.scrolled .navbar-brand {
+            padding: 10px;
         }
 
-            header .navbar-default.scrolled .navbar-brand img {
+            header .navbar.scrolled .navbar-brand img {
                 width: auto;
                 max-height: 60px;
             }
-
-        header .navbar-default.scrolled ul.navbar-nav {
-            padding-top: 15px;
-        }
 
 .scrollpoint {
     opacity: 0;
@@ -225,6 +236,7 @@ section#about {
         font-size: 17px;
         line-height: 25px;
         color: #999999;
+        margin-bottom: 30px;
     }
 
         section#about .about-item i.fa {
@@ -575,7 +587,7 @@ footer {
 
 section {
     position: relative;
-    padding-bottom: 60px;
+    padding: 30px 0;
 }
     /* Common style for pseudo-elements */
     section::before,
@@ -710,10 +722,10 @@ form textarea.form-control {
     line-height: normal;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 992px) {
     .logo {
-        width: 100px;
-        height: auto;
+        width: 50px;
+        height: 50px;
     }
 
     .slick-next {
@@ -728,11 +740,11 @@ form textarea.form-control {
         margin-top: 20px;
     }
 
-    header .navbar-default {
+    header .navbar {
         padding: 20px;
     }
 
-        header .navbar-default .navbar-toggle {
+        header .navbar .navbar-toggle {
             margin-top: 0px;
             margin-right: 0px;
             background: none;
@@ -745,22 +757,22 @@ form textarea.form-control {
             border-radius: 5em;
         }
 
-            header .navbar-default .navbar-toggle:hover,
-            header .navbar-default .navbar-toggle:focus {
+            header .navbar .navbar-toggle:hover,
+            header .navbar .navbar-toggle:focus {
                 background: none;
             }
 
-        header .navbar-default ul.navbar-nav {
-            padding-top: 0;
+        header .navbar ul.navbar-nav {
+            padding: 10px 0;
             margin: 0;
         }
 
-            header .navbar-default ul.navbar-nav li a {
+            header .navbar ul.navbar-nav li a {
                 padding: 10px;
                 text-align: center;
             }
 
-                header .navbar-default ul.navbar-nav li a.getApp {
+                header .navbar ul.navbar-nav li a.getApp {
                     background: none !important;
                     -webkit-border-radius: 0em;
                     -moz-border-radius: 0em;
@@ -769,20 +781,20 @@ form textarea.form-control {
                     border-radius: 0em;
                 }
 
-        header .navbar-default .navbar-collapse {
+        header .navbar .navbar-collapse {
             border-color: transparent;
         }
 
-        header .navbar-default.scrolled .navbar-collapse {
+        header .navbar.scrolled .navbar-collapse {
             border-color: transparent;
         }
 
-        header .navbar-default.scrolled ul.navbar-nav {
+        header .navbar.scrolled ul.navbar-nav {
             padding-top: 0;
             margin: 0;
         }
 
-        header .navbar-default.scrolled .navbar-toggle {
+        header .navbar.scrolled .navbar-toggle {
             margin-top: 11px;
             margin-right: 20px;
             background: none;
@@ -797,17 +809,17 @@ form textarea.form-control {
 }
 
 header {
-    background: url(../images/azurebootcamp2019-hcmc.jpg) top center !important;
-    background-size: cover !important;
+    background: url(../images/azurebootcamp2019-hcmc.jpg) center center;
+    background-size: cover;
     height: 725px;
 }
 
-    header .navbar-default ul.navbar-nav li a {
+    header .navbar ul.navbar-nav li a {
         color: #23527c;
         background: none;
     }
 
-        header .navbar-default ul.navbar-nav li a.getApp {
+        header .navbar ul.navbar-nav li a.getApp {
             color: #824583;
             background: url(../images/background.jpg) top center !important;
             background-size: cover !important;
@@ -816,7 +828,7 @@ header {
             /* IE6-9 fallback on horizontal gradient */
         }
 
-            header .navbar-default ul.navbar-nav li a.getApp:hover {
+            header .navbar ul.navbar-nav li a.getApp:hover {
                 color: #8c4b8d;
                 background: #ffffff;
                 /* Old browsers */
@@ -841,7 +853,7 @@ header {
                 transition: all 0.25s ease-in-out;
             }
 
-        header .navbar-default ul.navbar-nav li a:hover {
+        header .navbar ul.navbar-nav li a:hover {
             color: #ffffff;
             -webkit-transition: all 0.25s ease-in-out;
             -moz-transition: all 0.25s ease-in-out;
@@ -850,23 +862,23 @@ header {
             transition: all 0.25s ease-in-out;
         }
 
-    header .navbar-default.scrolled {
+    header .navbar.scrolled {
         border-bottom: 3px solid #3b4670;
     }
 
-        header .navbar-default.scrolled ul.navbar-nav li a {
+        header .navbar.scrolled ul.navbar-nav li a {
             color: #3b4670;
         }
 
-            header .navbar-default.scrolled ul.navbar-nav li a:hover {
+            header .navbar.scrolled ul.navbar-nav li a:hover {
                 color: #3b4670;
             }
 
-                header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
+                header .navbar.scrolled ul.navbar-nav li a:hover:after {
                     background: #3b4670;
                 }
 
-        header .navbar-default.scrolled .navbar-brand {
+        header .navbar.scrolled .navbar-brand {
             display: block;
         }
 
@@ -1163,42 +1175,49 @@ form .form-control:focus {
     color: #999999;
 }
 
-@media screen and (max-width: 640px) {
-    header .navbar-default .navbar-toggle:hover,
-    header .navbar-default .navbar-toggle:focus {
+@media screen and (max-width: 920px) {
+    header .navbar .navbar-toggle:hover,
+    header .navbar .navbar-toggle:focus {
         background: none;
     }
 
-    header .navbar-default ul.navbar-nav li a {
-        color: #ffffff;
-        border-bottom: 1px solid #753e76;
+    header .navbar ul.navbar-nav li a {
+
     }
 
-        header .navbar-default ul.navbar-nav li a.getApp {
+        header .navbar ul.navbar-nav li a.getApp {
             color: #ffffff;
         }
 
-        header .navbar-default ul.navbar-nav li a:after {
+        header .navbar ul.navbar-nav li a:after {
             display: none;
         }
 
-        header .navbar-default ul.navbar-nav li a:hover {
+        header .navbar ul.navbar-nav li a:hover {
             color: #37d0fb;
         }
 
-    header .navbar-default .navbar-collapse {
+    header .navbar .navbar-collapse {
         background: #3b4670;
     }
 
-    header .navbar-default.scrolled {
+    header .navbar ul.navbar-nav li a {
+        color: #ffffff;
+    }
+
+        header .navbar ul.navbar-nav li a:hover {
+            color: #37d0fb;
+        }
+
+    header .navbar.scrolled {
         background: #3b4670;
     }
 
-        header .navbar-default.scrolled ul.navbar-nav li a {
+        header .navbar.scrolled ul.navbar-nav li a {
             color: #ffffff;
         }
 
-            header .navbar-default.scrolled ul.navbar-nav li a:hover {
+            header .navbar.scrolled ul.navbar-nav li a:hover {
                 color: #37d0fb;
             }
 }
