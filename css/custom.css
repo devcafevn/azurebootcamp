@@ -28,16 +28,15 @@
 .intro {
     display: table;
     width: 100%;
-    height: auto;
-    padding: 100px 0;
+    height: 100%;
     text-align: center;
     color: #fff;
-    padding-top: 460px;
+    padding-bottom: 20px;
 }
 
     .intro .intro-body {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: bottom;
         align-content: center;
     }
 
@@ -98,22 +97,6 @@ a.speakersocial {
 
         .agenda .agenda-date .shortdate {
             font-size: 0.75em;
-        }
-
-
-    /* Times */
-    .agenda .agenda-time {
-        width: 140px;
-        text-align: right;
-        padding-right: 30px;
-    }
-
-
-    /* Events */
-    .agenda .agenda-events {
-    }
-
-        .agenda .agenda-events .agenda-event {
         }
 
 @media (max-width: 767px) {
