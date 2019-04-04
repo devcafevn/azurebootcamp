@@ -1,459 +1,559 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HCMC - Global Azure Bootcamp 2019</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta property="og:title" content="HCMC - Global Azure Bootcamp 2019">
-    <meta property="og:image" content="images/logo-2019-original.svg">
+    <meta property="og:title" content="HCMC - Global Azure Bootcamp 2019" />
+    <meta property="og:image" content="images/logo-2019-original.svg" />
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
 
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css" />
     <link rel="stylesheet" href="css/site.css" />
     <link rel="stylesheet" href="css/custom.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="images/logo-2019-original.svg" alt="" class="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#about">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="page-scroll" href="#agenda">agenda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="page-scroll" href="#speakers">speakers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="page-scroll" href="#sponsors">sponsors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="page-scroll" href="#giveaways">SWAGs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="page-scroll" href="#venue">venue</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="page-scroll" href="#contact">contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="text-center intro d-flex align-items-end justify-content-center pb-3">
-            <div class="intro-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div id="divTimer" class="countdown"></div>
-                            <a href="//bit.ly/GAB2019HCMC" class="btn btn-primary register">Register now </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo-2019-original.svg" alt="" class="logo"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll" href="#agenda">agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll" href="#speakers">speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll" href="#sponsors">sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll" href="#giveaways">SWAGs</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll" href="#venue">venue</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <div class="text-center intro d-flex align-items-end justify-content-center pb-3">
+        <div class="intro-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div id="divTimer" class="countdown"></div>
+                <a href="//bit.ly/GAB2019HCMC" class="btn btn-primary register">Register now </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <div class="wrapper">
-        <section id="about">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Global Azure Bootcamp 2019 - HCMC</h1>
-                    <div class="divider"></div>
-                    <p>One day event where everyone, <strong>globally</strong>, talks about the expanding universe of Microsoft Azure!</p>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4">
-                        <div class="about-item scrollpoint sp-effect2">
-                            <i class="fa fa-cloud fa-2x"></i>
-                            <h3 class="my-4">Deep Dive Sessions</h3>
-                            <p>
-                                One full day of <strong>deep dive</strong> sessions on Azure for Developers and IT Pro's delivered by the experts to get you started on complex topics like Containers, Kubernetes, Microservices,
-                                Machine Learning, IoT and Security
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="about-item scrollpoint sp-effect5">
-                            <i class="fa fa-usd fa-2x"></i>
-                            <h3 class="my-4">Free registration</h3>
-                            <p>
-                                Entry to this event is totally free! What more! There are
-                                <strong>lot of SWAGs</strong> from our sponsors!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="about-item scrollpoint sp-effect5">
-                            <i class="fa fa-users fa-2x"></i>
-                            <h3 class="my-4">Discuss with Experts</h3>
-                            <p> Have questions, need to discuss your technical issues, or looking for some advise, do attend to speak to the experts </p>
-                        </div>
-                    </div>
-                </div>
+      <section id="about">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3">
+            <h1>Global Azure Bootcamp 2019 - HCMC</h1>
+            <div class="divider"></div>
+            <p>
+              One day event where everyone, <strong>globally</strong>, talks about the expanding universe of Microsoft
+              Azure!
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <div class="about-item scrollpoint sp-effect2">
+                <i class="fa fa-cloud fa-2x"></i>
+                <h3 class="my-4">Deep Dive Sessions</h3>
+                <p>
+                  One full day of <strong>deep dive</strong> sessions on Azure for Developers and IT Pro's delivered by
+                  the experts to get you started on complex topics like Containers, Kubernetes, Microservices, Machine
+                  Learning, IoT and Security
+                </p>
+              </div>
             </div>
-        </section>
-        <!-- Contact Section -->
-        <section id="agenda">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Agenda</h1>
-                    <div class="divider"></div>
-                </div>
-                <div class="agenda container">
-                    <div class="row py-3 border-top border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            08:15 AM - 08:45 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Registration</strong>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            08:45 AM - 09:00 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Opening</strong>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            09:00 AM - 09:40 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <p class="mb-0">
-                                <strong>Containers with Azure Services</strong>
-                            </p>
-                            <p class="mb-0">
-                                <a href="#thien-nguyen">Thien Nguyen</a>
-                            </p>
-                            <p class="mb-0">
-                                <i>Explorer Azure tools and services for containers then deep dive into Azure Web App for Containers</i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            09:45 AM - 10:25 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <p class="mb-0">
-                                <strong>Building IoT applications on Azure</strong>
-                            </p>
-                            <p class="mb-0">
-                                <a href="#hanh-nguyen">Hanh Nguyen</a>
-                            </p>
-                            <p class="mb-0">
-                                <i>
-                                    - Using IoT Hub for device registration and two-way communication <br>
-                                    - Discovering how to do real-time analytics of IoT data using Azure Stream Analytics<br>
-                                    - Demo: temperature anomaly detection with DHT22, Adafruit Huzzah ESP8266, and IoT Hub
-                                </i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            10:30 AM - 11:10 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Session 3</strong>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            11:15 AM - 11:55 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Session 4</strong>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            11:55 AM - 12:30 PM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Lunch</strong>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            12:30 PM - 13:10 PM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <p class="mb-0">
-                                <strong>Azure DevSpaces, developing app to AKS without fears</strong>
-                            </p>
-                            <p class="mb-0">
-                                <a href="#phi-huynh">Phi Huynh</a>
-                            </p>
-                            <p class="mb-0">
-                                <i>
-                                    - How to apply Azure DevSpaces to AKS<br>
-                                    - Azure Pipelines for Azure DevSpaces<br>
-                                    - Group management for Azure DevSpaces
-                                </i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            13:15 PM - 13:55 PM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Session 6</strong>
-                        </div>
-                    </div>
-                    <div class="row py-3 border-bottom">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            14:00 PM - 14:40 PM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <p class="mb-0">
-                                <strong>Security on Azure Kubernetes Services with open-source tools</strong>
-                            </p>
-                            <p class="mb-0">
-                                <a href="#duc-lai">Duc Lai</a>
-                            </p>
-                            <p class="mb-0">
-                                <i>
-                                    - Azure Kubernetes Services and security features of Azure.<br>
-                                    - Kubernetes NGINX Ingress Controller as the Web Application Firewall and L7 Load-Balancer.<br>
-                                    - Log Management with Azure Log Analytics.<br>
-                                    - Attack Alert to Admin by Azure Logic App integration.
-                                </i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <div class="col-12 col-sm-4 text-left text-sm-right">
-                            14:45 AM - 15:00 AM
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <strong>Closing & Luck Draw</strong>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-12 col-sm-4">
+              <div class="about-item scrollpoint sp-effect5">
+                <i class="fa fa-usd fa-2x"></i>
+                <h3 class="my-4">Free registration</h3>
+                <p>
+                  Entry to this event is totally free! What more! There are
+                  <strong>lot of SWAGs</strong> from our sponsors!
+                </p>
+              </div>
             </div>
-        </section>
-        <section id="speakers" class="container content-section">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3 text-center">
-                    <h1>Speakers</h1>
-                    <div class="divider"></div>
-                </div>
-                <div class="row">
-                    <div id="hanh-nguyen" class="col-12 col-sm-6 mb-5">
-                        <div class="row">
-                            <div class="col-12 col-sm-4">
-                                <img class="w-100 mb-3" src="images/speakers/hanh_nguyen.jpg">
-                            </div>
-                            <div class="col-12 col-sm-8">
-                                <h3>Hanh Nguyen</h3>
-                                <p>Hanh Nguyen has worked in software development for 10+ years. He has focused on web technologies like ASP.NET MVC, ASP.NET CORE, Angular, and specially in cloud computing with Microsoft Azure. Hanh has been certified as an Azure Solutions Architect</p>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/hanh-nguyen-duc-25800532/" class="speakersocial"><i class="fa fa-linkedin fa-fw"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="thien_nguyen" class="col-12 col-sm-6 mb-5">
-                        <div class="row">
-                            <div class="col-12 col-sm-4">
-                                <img class="w-100 mb-3" src="images/speakers/thien_nguyen.jpg">
-                            </div>
-                            <div class="col-12 col-sm-8">
-                                <h3>Thien Nguyen</h3>
-                                <p>
-                                    Thien is Engineering Manager at NashTech, a Microsoft MVP and the creator of 
-                                    <a target="_blank" href="https://github.com/simplcommerce/SimplCommerce">SimplCommerce</a>. 
-                                    He is a passionate developer, a mentor and a speaker. His current interests are .NET Core, Azure and Microservices
-                                </p>
-                                <p>
-                                    <a href="https://thienn.com" class="speakersocial"><i class="fa fa-rss fa-fw" aria-hidden="true"></i></a>
-                                    <a href="https://www.linkedin.com/in/thiennn" class="speakersocial"><i class="fa fa-linkedin fa-fw"></i></a>
-                                    <a href="https://www.facebook.com/thiennlq" class="speakersocial"><i class="fa fa-facebook fa-fw"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="phi-huynh" class="col-12 col-sm-6 mb-5">
-                        <div class="row">
-                            <div class="col-12 col-sm-4">
-                                <img class="w-100 mb-3" src="images/speakers/phi_huynh.jpg">
-                            </div>
-                            <div class="col-12 col-sm-8">
-                                <h3>Phi Huynh</h3>
-                                <p>
-                                    Phi Huynh is currently working as R&D Manager at NashTech, building new skills for the
-                                    company, help the NashTech’s community up-to-date with latest technology trends (such as
-                                    Blockchain, Microservices, DevOps, Cloud & AI). He’s also a Software Consultant specializing
-                                    in cloud-first approach, software architecture and applying DevOps culture to the projects.
-                                    An Azure Expert to provide excellent services to help enterprises accelerate their cloud
-                                    adoption. With over ten-year experiences in the full life-cycle of the software design
-                                    process including gathering requirements, writing technical proposal, estimating, developing
-                                    and maintenance services.
-                                </p>
-                                <p>
-                                    <a href="https://medium.com/azurevietnam" class="speakersocial">
-                                        <i class="fa fa-rss fa-fw" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/trumhemcut" class="speakersocial">
-                                        <i class="fa fa-linkedin fa-fw"></i>
-                                    </a>
-                                    <a href="https://www.facebook.com/trumxomcui" class="speakersocial">
-                                        <i class="fa fa-facebook fa-fw"></i>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="duc-lai" class="col-12 col-sm-6 mb-5">
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <img class="w-100 mb-3" src="images/speakers/duc_lai.jpg">
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <h3>Duc Lai</h3>
-                                    <p>
-                                        Duc is the Supply Chain Data Scientist at Unilever Vietnam. 
-                                        He was the cloud solution architect and took care of DevOps environment for Microservices project on Azure. He loves researching on Microsoft technologies, especially .NET Core, Office 365 and Microsoft Azure. 
-                                        Coming to Global Azure Bootcamp 2019, he would love to share about the Security on Azure Kubernetes Services with open-source tools.
-                                    </p>
-                                    <p>
-                                        <a href="https://www.linkedin.com/in/duclaitrungminh" class="speakersocial"><i class="fa fa-linkedin fa-fw"></i></a>
-                                        <a href="https://www.facebook.com/laitrungminhduc" class="speakersocial"><i class="fa fa-facebook fa-fw"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-12 col-sm-4">
+              <div class="about-item scrollpoint sp-effect5">
+                <i class="fa fa-users fa-2x"></i>
+                <h3 class="my-4">Discuss with Experts</h3>
+                <p>
+                  Have questions, need to discuss your technical issues, or looking for some advise, do attend to speak
+                  to the experts
+                </p>
+              </div>
             </div>
-        </section>
-        <section id="sponsors">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Sponsors</h1>
-                    <div class="divider"></div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-6 text-center">
-                        <a href="https://www.nashtechglobal.com" target="_blank"><img class="img-fluid" src="images/NashTech-logo-m.png" alt="Microsoft MVP"></a><br />
-                        <br />
-                    </div>
-                    <div class="col-lg-6 text-center">
-                        <a href="https://www.microsoft.com/" target="_blank"><img class="w-100" src="images/msft.png" alt="Microsoft"></a><br />
-                        <br />
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="agenda">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3">
+            <h1>Agenda</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="agenda container">
+            <div class="row py-3 border-top border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                08:15 AM - 08:45 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <strong>Registration</strong>
+              </div>
             </div>
-        </section>
-        <section id="giveaways">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>The awesome giveaways!</h1>
-                    <div class="divider"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <img style="width:300px;" src="images/gift.png">
-                    </div>
-                </div>
-                <!-- row 
-                    <div class="row">
-                            <div class="col-lg-4 text-center">
-                                <a href="//www.xbox.com/en-SG/xbox-one" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/xbox.jpg" style="margin-top:30px;" height="80px"></a> <br>
-                                <h3>Xbox One</h3>
-                            </div>
-                            <div class="col-lg-4 text-center">
-                                <a href="//www.adafruit.com/products/2733" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/msiotkit.jpg" style="margin-top:30px;" height="80px"></a> <br>
-                                <h3>Microsoft IoT Kit / RPi 3</h3>
-                            </div>
-                            <div class="col-lg-4 text-center">
-                                <a href="//sg.element14.com/buy-raspberry-pi?ICID=I-HP-PP-raspberrypi-bundle-boards-01" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/rpi31.jpg" style="margin-top:30px;" height="80px"></a> <br>
-                                <h3>Raspberry Pi 3</h3>
-                            </div>
-                    </div>
-                    <div class="row">
-                            <div class="col-lg-4 text-center">
-                                <a href="#" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/azpass1.png" style="margin-top:30px;" height="80px"></a> <br>
-                                <h3>Azure Passes</h3>
-                            </div>
-                            <div class="col-lg-4 text-center">
-                                <a href="#" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/USB.png" style="margin-top:30px;" height="80px"></a> <br>
-                                <h3>USB Drives</h3>
-                            </div>
-                            <div class="col-lg-4 text-center">
-                                <a href="#" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/comingsoon.png" style="margin-top:30px;" height="80px"></a> <br>
-                                <h3>Coming Soon</h3>
-                            </div>
-                    </div>
-                row -->
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                08:45 AM - 09:00 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <strong>Opening</strong>
+              </div>
             </div>
-        </section>
-        <section id="venue">
-                <div class="container">
-                    <div class="section-heading scrollpoint sp-effect3">
-                        <h1>Venue</h1>
-                        <div class="divider"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <img class="img-fluid" src="images/nashtech-e4_s.jpg">
-                            <p class="mt-4">NashTech Viet Nam, G-floor, Etown 4, 364 Cong Hoa, Tan Binh, HCMC. <a target="_blank" href="https://www.google.com/maps/place/NashTech+Ho+Chi+Minh+City/@10.801517,106.6385343,17z/data=!3m1!4b1!4m5!3m4!1s0x317529502711460f:0xb7ce4406b2d0bb8b!8m2!3d10.801517!4d106.640723">Direction</a></p>
-                        </div>
-                    </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                09:00 AM - 09:40 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <p class="mb-0">
+                  <strong>Containers with Azure Services</strong>
+                </p>
+                <p class="mb-0">
+                  <a href="#thien-nguyen">Thien Nguyen</a>
+                </p>
+                <p class="mb-0">
+                  <i
+                    >Explorer Azure tools and services for containers then deep dive into Azure Web App for
+                    Containers</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                09:45 AM - 10:25 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <p class="mb-0">
+                  <strong>Building IoT applications on Azure</strong>
+                </p>
+                <p class="mb-0">
+                  <a href="#hanh-nguyen">Hanh Nguyen</a>
+                </p>
+                <p class="mb-0">
+                  <i>
+                    - Using IoT Hub for device registration and two-way communication <br />
+                    - Discovering how to do real-time analytics of IoT data using Azure Stream Analytics<br />
+                    - Demo: temperature anomaly detection with DHT22, Adafruit Huzzah ESP8266, and IoT Hub
+                  </i>
+                </p>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                10:30 AM - 11:10 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <strong>Session 3</strong>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                11:15 AM - 11:55 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <p class="mb-0">
+                  <strong>Modern .NET application development with gRPC and GraphQL</strong>
+                </p>
+                <p class="mb-0">
+                  <a href="#thang-chung">Thang Chung</a>
+                </p>
+                <p class="mb-0">
+                  <i>
+                    - Modern application development (cloud first, cloud-native, microservices, service mesh) <br />
+                    - 2Gs (gRPC and GraphQL) - schema first approach <br />
+                    - Demo: Coolstore project
+                  </i>
+                </p>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                11:55 AM - 12:30 PM
+              </div>
+              <div class="col-12 col-sm-8">
+                <strong>Lunch</strong>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                12:30 PM - 13:10 PM
+              </div>
+              <div class="col-12 col-sm-8">
+                <p class="mb-0">
+                  <strong>Azure DevSpaces, developing app to AKS without fears</strong>
+                </p>
+                <p class="mb-0">
+                  <a href="#phi-huynh">Phi Huynh</a>
+                </p>
+                <p class="mb-0">
+                  <i>
+                    - How to apply Azure DevSpaces to AKS<br />
+                    - Azure Pipelines for Azure DevSpaces<br />
+                    - Group management for Azure DevSpaces
+                  </i>
+                </p>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                13:15 PM - 13:55 PM
+              </div>
+              <div class="col-12 col-sm-8">
+                <strong>Session 6</strong>
+              </div>
+            </div>
+            <div class="row py-3 border-bottom">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                14:00 PM - 14:40 PM
+              </div>
+              <div class="col-12 col-sm-8">
+                <p class="mb-0">
+                  <strong>Security on Azure Kubernetes Services with open-source tools</strong>
+                </p>
+                <p class="mb-0">
+                  <a href="#duc-lai">Duc Lai</a>
+                </p>
+                <p class="mb-0">
+                  <i>
+                    - Azure Kubernetes Services and security features of Azure.<br />
+                    - Kubernetes NGINX Ingress Controller as the Web Application Firewall and L7 Load-Balancer.<br />
+                    - Log Management with Azure Log Analytics.<br />
+                    - Attack Alert to Admin by Azure Logic App integration.
+                  </i>
+                </p>
+              </div>
+            </div>
+            <div class="row py-3">
+              <div class="col-12 col-sm-4 text-left text-sm-right">
+                14:45 AM - 15:00 AM
+              </div>
+              <div class="col-12 col-sm-8">
+                <strong>Closing & Luck Draw</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="speakers" class="container content-section">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3 text-center">
+            <h1>Speakers</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="row">
+            <div id="hanh-nguyen" class="col-12 col-sm-6 mb-5">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <img class="w-100 mb-3" src="images/speakers/hanh_nguyen.jpg" />
                 </div>
-                <!-- Map Section -->
-        </section>
+                <div class="col-12 col-sm-8">
+                  <h3>Hanh Nguyen</h3>
+                  <p>
+                    Hanh Nguyen has worked in software development for 10+ years. He has focused on web technologies
+                    like ASP.NET MVC, ASP.NET CORE, Angular, and specially in cloud computing with Microsoft Azure. Hanh
+                    has been certified as an Azure Solutions Architect
+                  </p>
+                  <p>
+                    <a href="https://www.linkedin.com/in/hanh-nguyen-duc-25800532/" class="speakersocial"
+                      ><i class="fa fa-linkedin fa-fw"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="thien_nguyen" class="col-12 col-sm-6 mb-5">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <img class="w-100 mb-3" src="images/speakers/thien_nguyen.jpg" />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <h3>Thien Nguyen</h3>
+                  <p>
+                    Thien is Engineering Manager at NashTech, a Microsoft MVP and the creator of
+                    <a target="_blank" href="https://github.com/simplcommerce/SimplCommerce">SimplCommerce</a>. He is a
+                    passionate developer, a mentor and a speaker. His current interests are .NET Core, Azure and
+                    Microservices
+                  </p>
+                  <p>
+                    <a href="https://thienn.com" class="speakersocial"
+                      ><i class="fa fa-rss fa-fw" aria-hidden="true"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/thiennn" class="speakersocial"
+                      ><i class="fa fa-linkedin fa-fw"></i
+                    ></a>
+                    <a href="https://www.facebook.com/thiennlq" class="speakersocial"
+                      ><i class="fa fa-facebook fa-fw"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="phi-huynh" class="col-12 col-sm-6 mb-5">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <img class="w-100 mb-3" src="images/speakers/phi_huynh.jpg" />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <h3>Phi Huynh</h3>
+                  <p>
+                    Phi Huynh is currently working as R&D Manager at NashTech, building new skills for the company, help
+                    the NashTech’s community up-to-date with latest technology trends (such as Blockchain,
+                    Microservices, DevOps, Cloud & AI). He’s also a Software Consultant specializing in cloud-first
+                    approach, software architecture and applying DevOps culture to the projects. An Azure Expert to
+                    provide excellent services to help enterprises accelerate their cloud adoption. With over ten-year
+                    experiences in the full life-cycle of the software design process including gathering requirements,
+                    writing technical proposal, estimating, developing and maintenance services.
+                  </p>
+                  <p>
+                    <a href="https://medium.com/azurevietnam" class="speakersocial">
+                      <i class="fa fa-rss fa-fw" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/trumhemcut" class="speakersocial">
+                      <i class="fa fa-linkedin fa-fw"></i>
+                    </a>
+                    <a href="https://www.facebook.com/trumxomcui" class="speakersocial">
+                      <i class="fa fa-facebook fa-fw"></i>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="duc-lai" class="col-12 col-sm-6 mb-5">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <img class="w-100 mb-3" src="images/speakers/duc_lai.jpg" />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <h3>Duc Lai</h3>
+                  <p>
+                    Duc is the Supply Chain Data Scientist at Unilever Vietnam. He was the cloud solution architect and
+                    took care of DevOps environment for Microservices project on Azure. He loves researching on
+                    Microsoft technologies, especially .NET Core, Office 365 and Microsoft Azure. Coming to Global Azure
+                    Bootcamp 2019, he would love to share about the Security on Azure Kubernetes Services with
+                    open-source tools.
+                  </p>
+                  <p>
+                    <a href="https://www.linkedin.com/in/duclaitrungminh" class="speakersocial"
+                      ><i class="fa fa-linkedin fa-fw"></i
+                    ></a>
+                    <a href="https://www.facebook.com/laitrungminhduc" class="speakersocial"
+                      ><i class="fa fa-facebook fa-fw"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="hanh-nguyen" class="col-12 col-sm-6 mb-5">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <img class="w-100 mb-3" src="images/speakers/thang_chung.jpeg" />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <h3>Thang Chung</h3>
+                  <p>
+                    Thang has over 10-years’ experience in the software development industry. He normally works as a
+                    solution architecture on a variety of projects in NashTech. He is a creator and maintainer of
+                    awesome-dotnetcore, clean-code-dotnet, coolstore-microservices, cloud-native-kit, and many projects
+                    on GitHub.
+                  </p>
+                  <p>
+                    <a href="https://github.com/thangchung" class="speakersocial"><i class="fa fa-github fa-fw"></i></a>
+                    <a href="https://medium.com/@thangchung" class="speakersocial"
+                      ><i class="fa fa-medium fa-fw"></i
+                    ></a>
+                    <a href="https://twitter.com/thangchung" class="speakersocial"
+                      ><i class="fa fa-twitter fa-fw"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sponsors">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3">
+            <h1>Sponsors</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center">
+              <a href="https://www.nashtechglobal.com" target="_blank"
+                ><img class="img-fluid" src="images/NashTech-logo-m.png" alt="Microsoft MVP"/></a
+              ><br />
+              <br />
+            </div>
+            <div class="col-lg-6 text-center">
+              <a href="https://www.microsoft.com/" target="_blank"
+                ><img class="w-100" src="images/msft.png" alt="Microsoft"/></a
+              ><br />
+              <br />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="giveaways">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3">
+            <h1>The awesome giveaways!</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img style="width:300px;" src="images/gift.png" />
+            </div>
+          </div>
+          <!-- row 
+            <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <a href="//www.xbox.com/en-SG/xbox-one" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/xbox.jpg" style="margin-top:30px;" height="80px"></a> <br>
+                        <h3>Xbox One</h3>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <a href="//www.adafruit.com/products/2733" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/msiotkit.jpg" style="margin-top:30px;" height="80px"></a> <br>
+                        <h3>Microsoft IoT Kit / RPi 3</h3>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <a href="//sg.element14.com/buy-raspberry-pi?ICID=I-HP-PP-raspberrypi-bundle-boards-01" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/rpi31.jpg" style="margin-top:30px;" height="80px"></a> <br>
+                        <h3>Raspberry Pi 3</h3>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <a href="#" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/azpass1.png" style="margin-top:30px;" height="80px"></a> <br>
+                        <h3>Azure Passes</h3>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <a href="#" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/USB.png" style="margin-top:30px;" height="80px"></a> <br>
+                        <h3>USB Drives</h3>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <a href="#" target="_blank"><img src="//raw.githubusercontent.com/punitganshani/azurebootcamp-data/master/2017/locations/singapore/comingsoon.png" style="margin-top:30px;" height="80px"></a> <br>
+                        <h3>Coming Soon</h3>
+                    </div>
+            </div>
+        row -->
+        </div>
+      </section>
+      <section id="venue">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3">
+            <h1>Venue</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <img class="img-fluid" src="images/nashtech-e4_s.jpg" />
+              <p class="mt-4">
+                NashTech Viet Nam, G-floor, Etown 4, 364 Cong Hoa, Tan Binh, HCMC.
+                <a
+                  target="_blank"
+                  href="https://www.google.com/maps/place/NashTech+Ho+Chi+Minh+City/@10.801517,106.6385343,17z/data=!3m1!4b1!4m5!3m4!1s0x317529502711460f:0xb7ce4406b2d0bb8b!8m2!3d10.801517!4d106.640723"
+                  >Direction</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Map Section -->
+      </section>
 
-        <section id="contact" class="container content-section text-center">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Stay Connected on</h1>
-                    <div class="divider"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="list-inline banner-social-buttons">
-                            <li class="list-inline-item mb-3">
-                                <a href="//www.meetup.com/devcafevn/events/259153829" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-group fa-fw"></i> <span class="network-name">Meetup</span></a>
-                            </li>
-                            <li class="list-inline-item mb-3">
-                                <a href="//www.facebook.com/events/955759801293540" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                            <li class="list-inline-item mb-3">
-                                <a href="mailto:NTDevCafe@Nashtechglobal.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email to DEV Cafe</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>   
-        </section>
+      <section id="contact" class="container content-section text-center">
+        <div class="container">
+          <div class="section-heading scrollpoint sp-effect3">
+            <h1>Stay Connected on</h1>
+            <div class="divider"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="list-inline banner-social-buttons">
+                <li class="list-inline-item mb-3">
+                  <a href="//www.meetup.com/devcafevn/events/259153829" target="_blank" class="btn btn-default btn-lg"
+                    ><i class="fa fa-group fa-fw"></i> <span class="network-name">Meetup</span></a
+                  >
+                </li>
+                <li class="list-inline-item mb-3">
+                  <a href="//www.facebook.com/events/955759801293540" target="_blank" class="btn btn-default btn-lg"
+                    ><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a
+                  >
+                </li>
+                <li class="list-inline-item mb-3">
+                  <a href="mailto:NTDevCafe@Nashtechglobal.com" target="_blank" class="btn btn-default btn-lg"
+                    ><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email to DEV Cafe</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <footer>
-        <div class="large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
-            [ Designed by
-            <a href="//www.ganshani.com/?ref=azurebootcamp" target="_blank">Punit Ganshani</a>, Update by
-            <a href="mailto:NTDevCafe@Nashtechglobal.com" target="_blank">DEV Cafe</a>, Theme
-            <a href="//www.scoopthemes.com/templates/Oleose/Freeze/" target="_blank">Freeze</a> ]
-        </div>
+      <div
+        class="large_white_light sft"
+        data-x="center"
+        data-y="250"
+        data-hoffset="0"
+        data-voffset="0"
+        data-speed="1000"
+        data-start="1400"
+        data-easing="Power4.easeOut"
+      >
+        [ Designed by
+        <a href="//www.ganshani.com/?ref=azurebootcamp" target="_blank">Punit Ganshani</a>, Update by
+        <a href="mailto:NTDevCafe@Nashtechglobal.com" target="_blank">DEV Cafe</a>, Theme
+        <a href="//www.scoopthemes.com/templates/Oleose/Freeze/" target="_blank">Freeze</a> ]
+      </div>
     </footer>
     <script src="lib/jquery/dist/jquery.js"></script>
     <script src="lib/jquery-ui/jquery-ui.min.js"></script>
@@ -470,17 +570,19 @@
     <script src="js/jquery.countdown.min.js" asp-append-version="true"></script>
     <script src="js/site.js" asp-append-version="true"></script>
     <script src="js/custom.js" asp-append-version="true"></script>
-    
-    <script>
-        $(document).ready(function () {
-            appMaster.preLoader();
 
-            $("#divTimer").countdown("2019/04/27 08:30:00", function (event) {
-                $(this).html(
-                    event.strftime('<div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
-                );
-            });
-        });
+    <script>
+      $(document).ready(function() {
+        appMaster.preLoader()
+
+        $('#divTimer').countdown('2019/04/27 08:30:00', function(event) {
+          $(this).html(
+            event.strftime(
+              '<div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>'
+            )
+          )
+        })
+      })
     </script>
-</body>
+  </body>
 </html>
